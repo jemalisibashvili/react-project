@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(117, 185, 219);
+  color:blue;
+
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  list-style: none;
+}
+
+.ajax div:nth-child(odd){
+  background-color: rgb(132 13 13);
+}
+.ajax div:nth-child(even){
+  color: white;
+  background-color: black;
+}
+.ajax {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+}
+.ajax2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin: 30px;
+}
+.ajax2 div:nth-child(odd){
+  background-color: rgb(18, 184, 206);
+}
+.ajax2 div:nth-child(even){
+  color: white;
+  background-color: rgb(146, 243, 146);
+}
+.ajaxname {
+  font-size: 25px;
+  padding: 0;
+}
+
+  
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: rgb(117, 185, 219);
+}
+
